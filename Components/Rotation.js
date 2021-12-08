@@ -35,7 +35,7 @@ AFRAME.registerComponent("scuba",{
           }
           if(e.key==="ArrowDown"){
               if(scuba.z<20){
-                  scuba.z-=0.1
+                  scuba.z+=0.1
                   this.el.setAttribute("position",scuba)
               }
               
